@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #edeef0;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+ul {
+  list-style: none;
+}
+
+.key {
+  font-weight: 700;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  background-color: #4872a3;
+}
+
+.header__title {
+  margin: auto;
+  color: #fff;
+}
+
+.bsuir-wrapper,
+.epam-wrapper {
+  padding: 10px;
+  background-color: #cfcfcf;
+}
+
+.epam-wrapper {
+  margin-top: 10px;
+}
+
+.resume {
+  padding: 12px 24px;
+  text-align: left;
+  background-color: #fff;
+}
+
+.resume__portfolio-container__item {
+  display: flex;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.resume__portfolio-container__item:hover {
+  outline: 3px solid #901eba;
+}
+
+.resume__bsuir-logo, .resume__epam-logo, .resume__portfolio-container, .resume__contacts-container-item {
+  display: flex;
+}
+
+.resume__bsuir-logo__title, .resume__epam-logo__title {
+  margin: auto 30px;
+}
+
+.resume__technical-stack-info, .resume__portfolio-container, .resume__work-info, .resume__contacts-container {
+  padding-left: 15px;
+}
+
+.resume__technical-stack-title, .resume__portfolio-title, .resume__work-title, .resume__contacts-title {
+  padding-top: 15px;
+}
+
+.resume__contacts-container-item img {
+  padding-right: 10px;
+}
+
+.resume__contacts-container-item {
+  padding-top: 3px;
+}
+
+.footer {
+  padding: 12px 24px;
+  color: #fff;
+  background-color: #24292e;
+  text-align: center;
+}
+
+@media all and (max-width: 625px) {
+  .resume__portfolio-container {
+    flex-wrap: wrap;
+  }
+  .header__img-logo {
+    min-width: 150px;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .header__title {
+    font-size: 70%;
+    padding-left: 10px;
+  }
+}
+
+@keyframes education-items {
+  0% {
+    transform: scale(0.75);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
+.animation {
+  animation-name: education-items;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
