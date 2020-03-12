@@ -60,7 +60,7 @@ ul {
 }
 
 .resume__portfolio-container__item:hover {
-  outline: 3px solid #901eba;
+  outline: 3px solid #4872a3;
 }
 
 .resume__bsuir-logo, .resume__epam-logo, .resume__portfolio-container, .resume__contacts-container-item {
@@ -95,15 +95,15 @@ ul {
 }
 
 @media all and (max-width: 625px) {
-  .resume__portfolio-container {
-    flex-wrap: wrap;
-  }
   .header__img-logo {
     min-width: 150px;
   }
 }
 
 @media all and (max-width: 800px) {
+  .resume__portfolio-container {
+    flex-wrap: wrap;
+  }
   .header__title {
     font-size: 70%;
     padding-left: 10px;
