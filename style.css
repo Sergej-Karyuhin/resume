@@ -71,11 +71,11 @@ ul {
   margin: auto 30px;
 }
 
-.resume__technical-stack-info, .resume__portfolio-container, .resume__work-info, .resume__contacts-container {
+.resume__technical-stack-info, .resume__portfolio-container, .resume__work-info, .resume__contacts-container, .resume__english-info {
   padding-left: 15px;
 }
 
-.resume__technical-stack-title, .resume__portfolio-title, .resume__work-title, .resume__contacts-title {
+.resume__technical-stack-title, .resume__portfolio-title, .resume__work-title, .resume__contacts-title, .resume__english-title {
   padding-top: 15px;
 }
 
