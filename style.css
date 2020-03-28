@@ -75,6 +75,10 @@ ul {
   padding-left: 15px;
 }
 
+.resume__portfolio-table {
+  margin-left: 15px;
+}
+
 .resume__technical-stack-title, .resume__portfolio-title, .resume__work-title, .resume__contacts-title, .resume__english-title {
   padding-top: 15px;
 }
@@ -93,6 +97,23 @@ ul {
   background-color: #24292e;
   text-align: center;
 }
+
+
+
+table,
+td {
+    border: 1px solid #333;
+}
+td, th {
+  padding: 0 10px 0 10px;
+}
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+
 
 @media all and (max-width: 625px) {
   .header__img-logo {
